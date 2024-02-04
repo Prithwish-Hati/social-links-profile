@@ -1,0 +1,98 @@
+:root {
+  --primary-color: hsl(75, 94%, 57%);
+  --grey: hsl(0, 0%, 20%);
+  --dark-grey: hsl(0, 0%, 12%);
+  --off-black: hsl(0, 0%, 8%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--off-black);
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-text {
+  font-size: 14px;
+}
+
+.profile-card {
+  background-color: var(--dark-grey);
+  padding: 2.5em 2em;
+  text-align: center;
+  border-radius: 1em;
+  margin: 3em 2em;
+  max-width: 550px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.heading1 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.location {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.bio {
+  margin-top: 2.8em;
+  color: white;
+}
+
+.social {
+  width: 100%;
+  background-color: var(--grey);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  border: 0px;
+  margin: 0.5em 0;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.social:hover {
+  cursor: pointer;
+  background-color: var(--off-black);
+}
+
+.social:active {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--off-black);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2em;
+  color: white;
+}
+
+.attribution a {
+  color: var(--primary-color);
+}
+
+@media (min-width: 900px) {
+  .avatar {
+    width: 25%;
+  }
+
+  .heading1 {
+    font-size: 2rem;
+  }
+}
