@@ -28,8 +28,7 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Live Site URL: [social-links-profile-ph.vercel.app](https://social-links-profile-ph.vercel.app/)
 
 ## My process
 
@@ -40,8 +39,6 @@ Users are able to:
 - Mobile-first workflow
 
 ### What I learned
-
-Certainly! Here's the information formatted in Markdown:
 
 #### CSS Custom Variables
 
@@ -56,8 +53,6 @@ Certainly! Here's the information formatted in Markdown:
 #### Dangling Element Selectors
 
 - Applied styles to specific elements, such as `.avatar`, instead of using element selectors for more targeted styling.
-
-These additions showcase your proficiency in utilizing CSS custom variables, styling states, responsive design, and other advanced styling techniques.
 
 ### Useful resources
 
